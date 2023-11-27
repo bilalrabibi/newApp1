@@ -1,0 +1,39 @@
+name: new_app1
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.4 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+ 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  mockito: ^5.4.3
+  patrol: ^3.0.3
+
+patrol:
+  app_name: new_app1
+  android:
+    package_name: com.example.myapp
+  ios:
+    bundle_id: com.example.newApp1
+flutter:
+
+  uses-material-design: true
